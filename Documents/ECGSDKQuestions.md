@@ -1,7 +1,7 @@
-[ecg diagnosis]:https://github.com/yubeikeji/Projects/blob/master/Images/ecg_diagnosis.jpg
-[ecg_report_1]:https://github.com/yubeikeji/Projects/blob/master/Images/ecg_report_1.jpg
-[ecg_report_2]:https://github.com/yubeikeji/Projects/blob/master/Images/ecg_report_2.jpg
-[ecg_parameters]:https://github.com/yubeikeji/Projects/blob/master/Images/ecg_parameters.jpg
+[ecg diagnosis]:https://github.com/yubeikeji/public/blob/master/Images/ecg_diagnosis.jpg
+[ecg_report_1]:https://github.com/yubeikeji/public/blob/master/Images/ecg_report_1.jpg
+[ecg_report_2]:https://github.com/yubeikeji/public/blob/master/Images/ecg_report_2.jpg
+[ecg_parameters]:https://github.com/yubeikeji/public/blob/master/Images/ecg_parameters.jpg
 
 ## 用户需求
 ### 功能性需求
