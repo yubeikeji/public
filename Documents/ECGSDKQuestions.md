@@ -17,6 +17,7 @@
 ## 基本问题
 - **[新问题]**
   - 根据对问题答案的理解，只有本地的心电数据可以通过API展示出来。如果PAD损毁或丢失，心电数据就会完全丢失。
+  - 如果本地心电数据大小超过PAD存储的大小，新的心电数据还能保持吗？
   - 如果我们保持心电数据在数据库，这样的数据是不能被以心电图的方式展示。
 - 监护数据是怎么管理的？
   - 数据产生
@@ -160,7 +161,21 @@
   - 不是一个页面
 - 解释每一项的数据是什么用途？
   - 请查看Demo中Report类
-  - **[Parry新问题]**请查看一下Demo
+    - private int hr;// 平均心率 	
+    - private String st;// 平均st 
+    - private int totalV;// 室早总数 
+    - private int totalVS;// 单发室性早搏 
+    - private int totalVP;// 室性早搏成对 
+    - private int totalV2;// 室性二联律 
+    - private int totalV3;// 室性三联律  
+    - private int totalVR;// 室性心动过速 
+    - private int totalS;// 室上早总数 
+    - private int totalSS;// 单发室上性早搏 
+    - private int totalSP;// 室上性早搏成对 
+    - private int totalS2;// 室上性二联律 
+    - private int totalS3;// 室上性三联律 
+    - private int totalSR;// 室上性心动过速 
+    - private int totalL;// 长间歇 
 ## 获取心电原始文件路径
 ```
 接口定义:String getECGFilePath(String userId, String dataId)
