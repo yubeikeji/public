@@ -66,7 +66,7 @@
 
 ## 管理器启动监护
 ```  
-接口定义: string startECGMonitor(string userId, String testModel)
+接口定义: string startECGMonitor(string userId, String testModel, int testTime)
 返回结果:
 成功：{“result”:”successed”,”userId”:”220302198710151317”,”dataId”:”data1358”}
 失败：{“result”:”failed”,”userId”:”220302198710151317”,”dataId”:”data1358”}
